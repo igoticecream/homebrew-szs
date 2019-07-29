@@ -17,6 +17,6 @@ class Szs < Formula
   end
 
   test do
-    assert_equal %x('#{bin}/wszst'), "wszst: Wiimms SZS Tool v1.64a r7680 mac - Dirk Clemens - 2018-11-23\n"
+    assert_equal %x('#{bin}/wszst'), "wszst: Wiimms SZS Tool v1.64a r7680 mac - Dirk Clemens - 2018-11-24\n"
   end
 end
