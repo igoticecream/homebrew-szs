@@ -18,13 +18,13 @@ class Szs < Formula
 
   test do
     assert_equal shell_output("#{bin}/wbmgt version").strip, "wbmgt: Wiimms BMG Tool v1.64a r7680 mac - Dirk Clemens - 2018-11-23"
-    #assert_equal %x('#{bin}/wctct version'), "wctct: Wiimms CT-CODE Tool v1.64a r7680 mac - Dirk Clemens - 2018-11-23\n"
-    #assert_equal %x('#{bin}/wimgt version'), "wimgt: Wiimms Image Tool v1.64a r7680 mac - Dirk Clemens - 2018-11-23\n"
-    #assert_equal %x('#{bin}/wkclt version'), "wkclt: Wiimms KCL Tool v1.64a r7680 mac - Dirk Clemens - 2018-11-23\n"
-    #assert_equal %x('#{bin}/wkmpt version'), "wkmpt: Wiimms KMP Tool v1.64a r7680 mac - Dirk Clemens - 2018-11-23\n"
-    #assert_equal %x('#{bin}/wmdlt version'), "wmdlt: Wiimms MDL Tool v1.64a r7680 mac - Dirk Clemens - 2018-11-23\n"
-    #assert_equal %x('#{bin}/wpatt version'), "wpatt: Wiimms PAT Tool v1.64a r7680 mac - Dirk Clemens - 2018-11-23\n"
-    #assert_equal %x('#{bin}/wstrt version'), "wstrt: Wiimms StaticR Tool v1.64a r7680 mac - Dirk Clemens - 2018-11-23\n"
-    #assert_equal %x('#{bin}/wszst version'), "wszst: Wiimms SZS Tool v1.64a r7680 mac - Dirk Clemens - 2018-11-23\n"
+    assert_equal shell_output("#{bin}/wctct version").strip, "wctct: Wiimms CT-CODE Tool v1.64a r7680 mac - Dirk Clemens - 2018-11-23"
+    assert_equal shell_output("#{bin}/wimgt version").strip, "wimgt: Wiimms Image Tool v1.64a r7680 mac - Dirk Clemens - 2018-11-23"
+    assert_equal shell_output("#{bin}/wkclt version").strip, "wkclt: Wiimms KCL Tool v1.64a r7680 mac - Dirk Clemens - 2018-11-23"
+    assert_equal shell_output("#{bin}/wkmpt version").strip, "wkmpt: Wiimms KMP Tool v1.64a r7680 mac - Dirk Clemens - 2018-11-23"
+    assert_equal shell_output("#{bin}/wmdlt version").strip, "wmdlt: Wiimms MDL Tool v1.64a r7680 mac - Dirk Clemens - 2018-11-23"
+    assert_equal shell_output("#{bin}/wpatt version").strip, "wpatt: Wiimms PAT Tool v1.64a r7680 mac - Dirk Clemens - 2018-11-23"
+    assert_equal shell_output("#{bin}/wstrt version").strip, "wstrt: Wiimms StaticR Tool v1.64a r7680 mac - Dirk Clemens - 2018-11-23"
+    assert_equal shell_output("#{bin}/wszst version").strip, "wszst: Wiimms SZS Tool v1.64a r7680 mac - Dirk Clemens - 2018-11-23""
   end
 end
