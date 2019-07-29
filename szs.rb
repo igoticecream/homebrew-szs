@@ -5,7 +5,7 @@ class Szs < Formula
   sha256 "8a4a4aa8c2a11088331dc417541e3c916c6d3a761d677f5d8008c2287f0dbd51"
 
   def install
-    bin.install ./bin/wbmgt
+    bin.install "bin/wbmgt"
     bin.install bin/wctct
     bin.install bin/wimgt
     bin.install bin/wkclt
