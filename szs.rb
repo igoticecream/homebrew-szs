@@ -17,14 +17,14 @@ class Szs < Formula
   end
 
   test do
-    assert_equal %x('#{bin}/wbmgt'), "wbmgt: Wiimms BMG Tool v1.64a r7680 mac - Dirk Clemens - 2018-11-23\n"
-    assert_equal %x('#{bin}/wctct'), "wctct: Wiimms CT-CODE Tool v1.64a r7680 mac - Dirk Clemens - 2018-11-23\n"
-    assert_equal %x('#{bin}/wimgt'), "wimgt: Wiimms Image Tool v1.64a r7680 mac - Dirk Clemens - 2018-11-23\n"
-    assert_equal %x('#{bin}/wkclt'), "wkclt: Wiimms KCL Tool v1.64a r7680 mac - Dirk Clemens - 2018-11-23\n"
-    assert_equal %x('#{bin}/wkmpt'), "wkmpt: Wiimms KMP Tool v1.64a r7680 mac - Dirk Clemens - 2018-11-23\n"
-    assert_equal %x('#{bin}/wmdlt'), "wmdlt: Wiimms MDL Tool v1.64a r7680 mac - Dirk Clemens - 2018-11-23\n"
-    assert_equal %x('#{bin}/wpatt'), "wpatt: Wiimms PAT Tool v1.64a r7680 mac - Dirk Clemens - 2018-11-23\n"
-    assert_equal %x('#{bin}/wstrt'), "wstrt: Wiimms StaticR Tool v1.64a r7680 mac - Dirk Clemens - 2018-11-23\n"
-    assert_equal %x('#{bin}/wszst'), "wszst: Wiimms SZS Tool v1.64a r7680 mac - Dirk Clemens - 2018-11-23\n"
+    assert_equal %x('#{bin}/wbmgt version'), "wbmgt: Wiimms BMG Tool v1.64a r7680 mac - Dirk Clemens - 2018-11-23\n"
+    assert_equal %x('#{bin}/wctct version'), "wctct: Wiimms CT-CODE Tool v1.64a r7680 mac - Dirk Clemens - 2018-11-23\n"
+    assert_equal %x('#{bin}/wimgt version'), "wimgt: Wiimms Image Tool v1.64a r7680 mac - Dirk Clemens - 2018-11-23\n"
+    assert_equal %x('#{bin}/wkclt version'), "wkclt: Wiimms KCL Tool v1.64a r7680 mac - Dirk Clemens - 2018-11-23\n"
+    assert_equal %x('#{bin}/wkmpt version'), "wkmpt: Wiimms KMP Tool v1.64a r7680 mac - Dirk Clemens - 2018-11-23\n"
+    assert_equal %x('#{bin}/wmdlt version'), "wmdlt: Wiimms MDL Tool v1.64a r7680 mac - Dirk Clemens - 2018-11-23\n"
+    assert_equal %x('#{bin}/wpatt version'), "wpatt: Wiimms PAT Tool v1.64a r7680 mac - Dirk Clemens - 2018-11-23\n"
+    assert_equal %x('#{bin}/wstrt version'), "wstrt: Wiimms StaticR Tool v1.64a r7680 mac - Dirk Clemens - 2018-11-23\n"
+    assert_equal %x('#{bin}/wszst version'), "wszst: Wiimms SZS Tool v1.64a r7680 mac - Dirk Clemens - 2018-11-23\n"
   end
 end
