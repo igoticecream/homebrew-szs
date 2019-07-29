@@ -25,6 +25,6 @@ class Szs < Formula
     assert_equal shell_output("#{bin}/wmdlt version").strip, "wmdlt: Wiimms MDL Tool v1.64a r7680 mac - Dirk Clemens - 2018-11-23"
     assert_equal shell_output("#{bin}/wpatt version").strip, "wpatt: Wiimms PAT Tool v1.64a r7680 mac - Dirk Clemens - 2018-11-23"
     assert_equal shell_output("#{bin}/wstrt version").strip, "wstrt: Wiimms StaticR Tool v1.64a r7680 mac - Dirk Clemens - 2018-11-23"
-    assert_equal shell_output("#{bin}/wszst version").strip, "wszst: Wiimms SZS Tool v1.64a r7680 mac - Dirk Clemens - 2018-11-23""
+    assert_equal shell_output("#{bin}/wszst version").strip, "wszst: Wiimms SZS Tool v1.64a r7680 mac - Dirk Clemens - 2018-11-23"
   end
 end
