@@ -6,14 +6,14 @@ class Szs < Formula
 
   def install
     bin.install "bin/wbmgt"
-    bin.install bin/wctct
-    bin.install bin/wimgt
-    bin.install bin/wkclt
-    bin.install bin/wkmpt
-    bin.install bin/wmdlt
-    bin.install bin/wpatt
-    bin.install bin/wstrt
-    bin.install bin/wszst
+    bin.install "bin/wctct"
+    bin.install "bin/wimgt"
+    bin.install "bin/wkclt"
+    bin.install "bin/wkmpt"
+    bin.install "bin/wmdlt"
+    bin.install "bin/wpatt"
+    bin.install "bin/wstrt"
+    bin.install "bin/wszst"
   end
 
   test do
